@@ -6,6 +6,7 @@ class EventHandler(AssistantEventHandler):
     def __init__(self, client):
         super().__init__()
         self.client = client
+
     # def on_text_created(self, text) -> None:
     #     print(f"\nassistant > ", end="", flush=True)
 
@@ -48,7 +49,15 @@ def test1():
     vector_store = client.beta.vector_stores.create(name="Bank Statements")
 
     # Ready the files for upload to OpenAI
-    file_paths = ["/Users/ericmelz/Desktop/2024_01_31.pdf"]
+    # file_paths = ["/Users/ericmelz/Desktop/2024_01_31.pdf",
+    #               "/Users/ericmelz/Desktop/2024_02_29.pdf",
+    #               "/Users/ericmelz/Desktop/Invoice_INVJBA4729211.pdf",
+    #               "/Users/ericmelz/Desktop/tree.txt"]
+
+    ROOT_DIR = '/Users/ericmelz/Desktop/For Filing/SynologyDrive/'
+    all_files = os.listdir(ROOT_DIR)
+    file_paths = [os.path.join(ROOT_DIR, file) for file in all_files if file.endswith('.pdf')]
+
     file_streams = [open(path, "rb") for path in file_paths]
 
     # Use the upload and poll SDK helper to upload the files, add them to the vector store,
@@ -67,19 +76,27 @@ def test1():
     )
 
     # Upload the user provided file to OpenAI
-    message_file = client.files.create(
-        file=open("/Users/ericmelz/Desktop/2024_02_29.pdf", "rb"), purpose="assistants"
-    )
+    # message_file = client.files.create(
+    #     file=open("/Users/ericmelz/Desktop/2024_02_29.pdf", "rb"), purpose="assistants"
+    # )
 
     threads = []
 
     query1 = "What was my qualification balance on February 29, 2024?"
     query2 = "What was my qualification balance on January 31, 2024?"
+    # query3 = ("tree.txt contains a list of directories and files. Please suggest a folder to move "
+    #           "the file 2024_02_29.pdf to.")
+    # query4 = ("tree.txt contains a list of directories and files. Please suggest a folder to move "
+    #           "the file Invoice_INVJBA4729211.pdf to.")
+    # query5 = ("tree.txt contains a list of directories and files. Please suggest the most appropriate folder "
+    #           "for the file 2024_02_29.pdf.")
 
-    queries = [query1, query2]
+    # queries = [query3, query4, query5]
+
+    queries = [(f'tree.txt contains a list of directories and files. Please suggest the most appropriate f'
+                f'folder for the file {file}') for file in file_paths]
 
     for query in queries:
-
         print(f'{query=}')
 
         # Create a thread and attach the file to the message
@@ -88,10 +105,10 @@ def test1():
                 {
                     "role": "user",
                     "content": query,
-                    # Attach the new file to the message.
-                    "attachments": [
-                        {"file_id": message_file.id, "tools": [{"type": "file_search"}]}
-                    ],
+                    # # Attach the new file to the message.
+                    # "attachments": [
+                    #     {"file_id": message_file.id, "tools": [{"type": "file_search"}]}
+                    # ],
                 }
             ]
         )
