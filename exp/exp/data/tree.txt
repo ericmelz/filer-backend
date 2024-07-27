@@ -1,0 +1,552 @@
+.
+├── Banking
+│   ├── Checking
+│   │   ├── Citi
+│   │   │   ├── Letters
+│   │   │   │   ├── 2024_01_12 Safe Deposit Payment.pdf
+│   │   │   │   ├── 2024_05_21 Citi Bonus Money Awarded.pdf
+│   │   │   │   ├── document (1).pdf
+│   │   │   │   └── document.pdf
+│   │   │   └── Statements
+│   │   │       ├── 2024_01_03.pdf
+│   │   │       ├── 2024_02_04.pdf
+│   │   │       ├── 2024_03_03.pdf
+│   │   │       ├── 2024_04_03.pdf
+│   │   │       └── 2024_05_03.pdf
+│   │   └── Wells Fargo
+│   │       └── Statements
+│   │           ├── 2024_01_31.pdf
+│   │           ├── 2024_02_29.pdf
+│   │           ├── 2024_03_31.pdf
+│   │           ├── 2024_04_30.pdf
+│   │           ├── 2024_05_31.pdf
+│   │           └── 2024_06_30.pdf
+│   └── Credit
+│       ├── Amex
+│       │   ├── Gold 41006
+│       │   │   ├── 2024-01-07.pdf
+│       │   │   ├── 2024-02-05.pdf
+│       │   │   ├── 2024-03-07.pdf
+│       │   │   ├── 2024-04-05.pdf
+│       │   │   ├── 2024-05-07.pdf
+│       │   │   └── 2024-06-06.pdf
+│       │   └── Platinum 32001
+│       │       ├── 2024-01-09.pdf
+│       │       ├── 2024-02-07.pdf
+│       │       ├── 2024-03-08.pdf
+│       │       ├── 2024-04-08.pdf
+│       │       ├── 2024-05-09.pdf
+│       │       └── 2024-06-07.pdf
+│       ├── Bank of America
+│       │   └── 3409
+│       │       ├── Letters
+│       │       │   └── Renewal_Notice_2024-02-27.pdf
+│       │       └── Statements
+│       │           └── eStmt_2024-05-24.pdf
+│       ├── Credit Reports
+│       │   └── Annual Credit Report
+│       │       ├── 2024_03_12 Experian Credit Report.pdf
+│       │       └── Equifax.pdf
+│       ├── Macy's
+│       │   ├── Letters
+│       │   │   └── 2024_07_07 Macy's Card Agreement.pdf
+│       │   └── Statements
+│       │       ├── 2024_05_06.pdf
+│       │       └── 2024_06_05.pdf
+│       └── Wells Fargo
+│           ├── BLOC 7671
+│           │   └── Statements
+│           │       ├── 2024_02_12 WellsFargo.pdf
+│           │       ├── 2024_02_12.pdf
+│           │       └── 2024_03_14.pdf
+│           ├── Platinum 6365
+│           │   └── Statements
+│           │       ├── 2024_01_18.pdf
+│           │       ├── 2024_02_16.pdf
+│           │       ├── 2024_03_18.pdf
+│           │       ├── 2024_04_17.pdf
+│           │       ├── 2024_05_17.pdf
+│           │       └── 2024_06_17.pdf
+│           └── Visa Cashback 1680
+│               └── Statements
+│                   ├── 2024_05_17.pdf
+│                   └── 2024_06_17.pdf
+├── Bills
+│   ├── AT&T
+│   │   └── Letters
+│   │       └── 2024_04_25 Notice of Data Breach.pdf
+│   ├── AWS
+│   │   └── ericmelz
+│   │       ├── Bills
+│   │       │   ├── 2024_01.pdf
+│   │       │   ├── 2024_02.pdf
+│   │       │   ├── 2024_03.pdf
+│   │       │   └── 2024_04.pdf
+│   │       └── Invoices
+│   │           ├── invoice1547056249.pdf
+│   │           ├── invoice1587599433.pdf
+│   │           ├── invoice1612446393.pdf
+│   │           ├── invoice1653528869.pdf
+│   │           └── invoice1713026657.pdf
+│   └── Google
+│       └── 2024_05_31.pdf
+├── GumGum
+│   └── 2024_02_28 GumGum Non-compete laws.pdf
+├── Healthcare
+│   ├── Ablation
+│   │   ├── 2024_03_06 Ablation Estimate.pdf
+│   │   ├── 2024_03_06 Ablation Receipt_4306298.pdf
+│   │   ├── 2024_03_08 Ablation Procedure.pdf
+│   │   └── 2024_03_08 After Visit Summary.pdf
+│   ├── Angiogram
+│   │   ├── 2024_02_28 Blue Shield Angio Approved.pdf
+│   │   ├── 2024_02_28 Blue Shield Need More Info 2.pdf
+│   │   ├── 2024_02_28 Blue Shield Need More Info.pdf
+│   │   ├── 2024_03_01 Angiogram Post-op papers.pdf
+│   │   ├── 2024_03_01 Procedure Approved.pdf
+│   │   ├── Eric Melz lhc.pdf
+│   │   └── Receipt_4283446.PDF
+│   ├── Cardioversion
+│   │   ├── 2024_01_25 Cardioversion Papers.pdf
+│   │   ├── 2024_01_25 Southern California Hospital Papers.pdf
+│   │   ├── 2024_01_25 Southern California Hospital Payment.pdf
+│   │   ├── 2024_02_09 Orange Coast Anesthesia Payment.pdf
+│   │   ├── 2024_02_26 Bayside Anesthesia.pdf
+│   │   ├── 2024_03_03 Cardioversion Instructions.pdf
+│   │   ├── My CS-Link - eCheck-In 2.pdf
+│   │   └── My CS-Link - eCheck-In.pdf
+│   ├── Dental
+│   │   └── Guarding Dental Card.pdf
+│   ├── Insurance
+│   │   ├── Blue Shield
+│   │   │   ├── 2024 Blue Shield Card.pdf
+│   │   │   ├── 2024_03_12 Blue Shield Support Services.pdf
+│   │   │   ├── 2024_04_24 Blue Shield Unable to Reach You.pdf
+│   │   │   └── Blue Shield Healthy Opportunities.pdf
+│   │   ├── Insperity
+│   │   │   └── 2024_01_04 Insprity COBRA.pdf
+│   │   └── UHC
+│   │       ├── 2024_01_15 UHC Evidence of Coverage.pdf
+│   │       └── Statements
+│   │           ├── 157914798_40343749422557.pdf
+│   │           ├── 159554886_74052743499556.pdf
+│   │           └── 163135883_49542543787990.pdf
+│   ├── Medications
+│   │   ├── 2024_02_01 Digoxin.pdf
+│   │   ├── 2024_02_11 Blue Shield Letter.pdf
+│   │   ├── 2024_03_08 Amiodarone.pdf
+│   │   ├── 2024_03_08 Hydrocodone.pdf
+│   │   ├── 2024_07_14 Foot Ointment Literature.pdf
+│   │   ├── Amazon - Albuterol.pdf
+│   │   ├── Amazon - Eliquis and Pantoprazole.pdf
+│   │   ├── Amazon - Metformin.pdf
+│   │   └── Amazon Medication Literature.pdf
+│   ├── Office Visits
+│   │   ├── 2023_11_14 Doctor Bill.pdf
+│   │   ├── 2024_04_25 Schwarz Office Visit.pdf
+│   │   ├── 2024_04_26_ After Visit Summary.pdf
+│   │   └── Hospital receipt.pdf
+│   ├── Randi
+│   │   ├── 2023_12_19 Randi Dental EOB.pdf
+│   │   ├── 2024_01_02 Guardian Claim.pdf
+│   │   └── 2024_04_18 Guarding Explanation of Benefits.pdf
+│   └── Test Results
+│       ├── 2024_01_16 Quest.pdf
+│       ├── 2024_01_19 Lab Results.pdf
+│       ├── 2024_01_31 Quest Bill.pdf
+│       ├── 2024_04_26 Labcorp Bill.pdf
+│       ├── 2024_07_06 labcorp 1.pdf
+│       ├── 2024_07_06 labcorp 2 Labcorp-Receipt.pdf
+│       ├── 2024_07_06 labcorp 2.pdf
+│       ├── 208745219.pdf
+│       ├── Labcorp-Receipt.pdf
+│       ├── Quest Diagnostics_ Billing Services.pdf
+│       └── Scan - ECG 12 LEAD - Feb 27, 2024.PDF
+├── Insurance
+│   ├── 2024_01_02 NY Life Letter.pdf
+│   ├── 2024_01_05 NY Life Letter.pdf
+│   ├── 2024_04_17 Personal Umbrella Expiration Reminder.pdf
+│   ├── 2024_04_18 Personal Umbrella.pdf
+│   ├── 2024_04_23 Personal Umbrella Policy.pdf
+│   └── 24-25 PUMB - Markel 4-27-24 Renewal Offer, $1,553.pdf
+├── Investing
+│   ├── 2023_11_08 SMCI.pdf
+│   └── 2024_02_11 SMCI.pdf
+├── Offers
+│   ├── Cars
+│   │   └── Spotlight Research.pdf
+│   ├── Construction
+│   │   └── CJ Stafford Construction.pdf
+│   ├── FBN
+│   │   └── 2024_03_03 FBN Renewal Center.pdf
+│   ├── Home
+│   │   └── 2024_07_07 American Home Shield.pdf
+│   ├── Insurance
+│   │   └── 2024_07_07 USC Dental and Vision.pdf
+│   ├── Investing
+│   │   ├── 2024_02_11 Phoenix Asset Consortium.pdf
+│   │   ├── 2024_03_02 Wealth Enhancement Group.pdf
+│   │   ├── 2024_05_27 Motley Fool Offer - AI.pdf
+│   │   ├── 2024_06_08 Dow Theory Offer.pdf
+│   │   ├── 2024_06_08 Wealth Enhancement Financial Advisors.pdf
+│   │   ├── 2024_07_07 Blue Lake Capital.pdf
+│   │   └── 2024_07_07 Catalyst Funds.pdf
+│   ├── Loans
+│   │   ├── 2024_03_03 WF Personal Loan.pdf
+│   │   └── 2024_03_13 Amex Personal Loan.pdf
+│   ├── Medical
+│   │   ├── 2024_02_15 Cardio Imaging Approval.pdf
+│   │   ├── 2024_03_02 Blue Shield Eliquis offer.pdf
+│   │   └── 2024_03_02 Prescription Saving Terms.pdf
+│   ├── Real Estate
+│   │   ├── 2024_03_02 The Agency - Encanto Buyers.pdf
+│   │   ├── 2024_07_07 Brothers Buy Homes.pdf
+│   │   ├── 2024_07_07 Sell your home easily.pdf
+│   │   ├── 2024_07_07 The Agency.pdf
+│   │   ├── Keys and Magharrabi - Buy Encanto.pdf
+│   │   └── The Agency.pdf
+│   ├── Retirement
+│   │   ├── 2024_02_20 Wealth Enhancement Group.pdf
+│   │   └── 2024_07_01 Fisher Investments.pdf
+│   ├── Savings
+│   │   └── Citibank Savings Offer.pdf
+│   └── Subscriptions
+│       ├── 2024_03_02 Barron's Offer.pdf
+│       ├── 2024_03_03 Dow Theory Forecasts.pdf
+│       ├── 2024_03_03 Kiplinger Offer.pdf
+│       ├── 2024_03_03 Science News.pdf
+│       ├── 2024_03_12 Travel + Leisure.pdf
+│       ├── 2024_04_14 Barron's.pdf
+│       ├── 2024_05_27 Barron's.pdf
+│       ├── Harper's.pdf
+│       └── Smithsonian.pdf
+├── Property
+│   ├── Encanto
+│   │   ├── Banking
+│   │   │   └── Wells Fargo
+│   │   │       └── Statements
+│   │   │           ├── 2024_01_31.pdf
+│   │   │           ├── 2024_02_29.pdf
+│   │   │           ├── 2024_03_31.pdf
+│   │   │           ├── 2024_04_30.pdf
+│   │   │           ├── 2024_05_31.pdf
+│   │   │           └── 2024_06_30.pdf
+│   │   ├── FBN
+│   │   │   ├── 2024_03_07 FBN Receipt.pdf
+│   │   │   ├── 2024_03_07 FBN Renewal.pdf
+│   │   │   ├── Encanto FBN Renewal Notice.pdf
+│   │   │   └── LA County Business Filing and Registration System.pdf
+│   │   ├── Insurance
+│   │   │   └── 2023_01_08 Encanto Insurance.pdf
+│   │   ├── Mortgage 6191
+│   │   │   ├── Letters
+│   │   │   │   └── 2024_06_01 Mortgage Escrow Adjustment.pdf
+│   │   │   └── Statements
+│   │   │       ├── 2024_01_05.pdf
+│   │   │       ├── 2024_02_05.pdf
+│   │   │       ├── 2024_03_05.pdf
+│   │   │       ├── 2024_04_05.pdf
+│   │   │       ├── 2024_05_06.pdf
+│   │   │       ├── 2024_06_05.pdf
+│   │   │       └── 2024_07_05.pdf
+│   │   ├── Notices
+│   │   │   └── 2024_03_02 Brush Clearance Notice.pdf
+│   │   └── Property Management
+│   │       ├── Contract
+│   │       │   └── Complete_with_DocuSign_2024_Property_Mgmt_Co.pdf
+│   │       ├── Paid Bills
+│   │       └── Statements
+│   │           ├── 2024_01.pdf
+│   │           ├── 2024_02.pdf
+│   │           ├── 2024_03.pdf
+│   │           ├── 2024_04.pdf
+│   │           └── 2024_05.pdf
+│   └── Spring Hill
+│       ├── Banking
+│       │   └── Wells Fargo
+│       │       └── Statements
+│       │           ├── 2024_01_31.pdf
+│       │           ├── 2024_02_29.pdf
+│       │           ├── 2024_03_31.pdf
+│       │           ├── 2024_04_30.pdf
+│       │           ├── 2024_05_31.pdf
+│       │           └── 2024_06_30.pdf
+│       ├── FBN
+│       │   ├── 2024_03_07 FBN Receipt 1.pdf
+│       │   ├── 2024_03_07 Spring Hill FBN Renewal.pdf
+│       │   ├── LA County Business Filing and Registration System.pdf
+│       │   └── Spring Hill FBN Renewal.pdf
+│       ├── Insurance
+│       │   ├── 2024_04_26 Earthquake Insurance.pdf
+│       │   ├── 2024_04_26 Safeco Insurance Policy.pdf
+│       │   ├── 2024_05_14 Safeco.pdf
+│       │   ├── 2024_06_13 Safeco Policy Changes.pdf
+│       │   └── 2024_07_02 Safeco Amendment.pdf
+│       ├── Mortgage 6183
+│       │   ├── Letters
+│       │   │   └── 2024_06_01 Mortgage Escrow Adjustments.pdf
+│       │   └── Statements
+│       │       ├── 2024_01_05.pdf
+│       │       ├── 2024_02_05.pdf
+│       │       ├── 2024_03_05.pdf
+│       │       ├── 2024_04_05.pdf
+│       │       ├── 2024_05_06.pdf
+│       │       ├── 2024_06_05.pdf
+│       │       └── 2024_07_05.pdf
+│       ├── Property Management
+│       │   ├── Lease
+│       │   │   └── Extension of Lease Contract.pdf
+│       │   ├── Letters
+│       │   │   ├── important_update_changes_in_payment_processing_timeline_eric_randi_melz_012424.pdf
+│       │   │   └── understanding_your_1099_eric_randi_melz_012624.pdf
+│       │   ├── Paid Bills
+│       │   └── Statements
+│       │       ├── 2024_01.pdf
+│       │       ├── 2024_02.pdf
+│       │       ├── 2024_03.pdf
+│       │       ├── 2024_04.pdf
+│       │       ├── 2024_05.pdf
+│       │       └── 2024_06.pdf
+│       └── Taxes
+│           ├── Assessment.pdf
+│           └── Comps.pdf
+├── Receipts
+│   ├── Electronics
+│   │   ├── Lumen
+│   │   │   └── 2024_03_24_01.pdf
+│   │   └── Rabbit
+│   │       └── 2024_06_05 Rabbit Receipt76393509742.pdf
+│   ├── Misc
+│   │   └── Amazon
+│   │       └── Amazon.com - Order 114-5709645-0602649.pdf
+│   ├── Online Services
+│   │   ├── Digistore
+│   │   │   └── Invoice_4T4AQHX6_53510388us.pdf
+│   │   ├── Hackerrank
+│   │   │   ├── Receipt-2324-4276.pdf
+│   │   │   └── Receipt-2511-4093.pdf
+│   │   └── Masterclass
+│   │       ├── Invoice-7142CD9-0006.pdf
+│   │       └── Receipt-2620-1462.pdf
+│   └── Utlities
+│       └── Cable
+│           └── Statements
+│               ├── 2024_01_02.pdf
+│               ├── 2024_02_02.pdf
+│               ├── 2024_03_02.pdf
+│               └── 2024_04_02.pdf
+├── Reeves
+│   ├── Banking
+│   │   └── Wells Fargo 7847
+│   │       ├── 2024_01_31.pdf
+│   │       ├── 2024_02_29.pdf
+│   │       ├── 2024_03_31.pdf
+│   │       ├── 2024_04_30.pdf
+│   │       ├── 2024_05_31.pdf
+│   │       └── 2024_06_30.pdf
+│   ├── Insurance
+│   │   └── 2023_11_02 Reeves Insurance Policy.pdf
+│   ├── Maintenance
+│   │   ├── 2024_05_03 CJ Bee Services.pdf
+│   │   └── 2024_05_03 Check 111 CJ Beest James Lopez.pdf
+│   ├── Mortgage
+│   │   ├── Letters
+│   │   │   └── 2024_05_20 Escrow Adjustment.pdf
+│   │   └── Statements
+│   │       ├── 2024_01_02.pdf
+│   │       ├── 2024_02_01.pdf
+│   │       ├── 2024_03_01.pdf
+│   │       ├── 2024_04_01.pdf
+│   │       ├── 2024_05_01.pdf
+│   │       ├── 2024_06_03.pdf
+│   │       └── 2024_07_01.pdf
+│   ├── Notices
+│   │   ├── 2024_03_02 Street Cleaning Notice.pdf
+│   │   └── 2024_07_07 City Sewer Rate Change Proposal.pdf
+│   ├── Permits
+│   │   ├── 2024_04_18 Right of Way Use.pdf
+│   │   └── Beverly Hills Tree Permit - Reimburse Eric.pdf
+│   └── Utilities
+│       ├── Electric
+│       │   └── Letters
+│       │       └── 2024_07_16 Edison Energy Report.pdf
+│       └── Water
+│           └── 2024_02_03 Water.pdf
+├── Retirement
+│   ├── GumGum
+│   │   └── 2024_01_15 GumGum Retirement.pdf
+│   ├── Schwab
+│   │   └── Letters
+│   │       ├── 2024_01_31 Yandex Tender Offer.pdf
+│   │       ├── 2024_02_06 Schwab Yandex Paperwork.pdf
+│   │       └── 2024_04_03 Schwab Yandex Sale.pdf
+│   ├── SearchStax
+│   │   ├── 2024_03_31 Insperity.pdf
+│   │   └── Guideline-statement-2024-01-01-to-2024-03-31.pdf
+│   └── Wealth Enhancement
+│       ├── Wealth Management - Welcome Letter.pdf
+│       └── Wealth Managemnt - Your Retirement Roadmap.pdf
+├── S-CREW
+│   ├── 2024 S-Crew Business Tax Renewal.pdf
+│   ├── 2024_01_03 Letter to FTB.pdf
+│   ├── 2024_01_17 FTB Change of Address Form.pdf
+│   ├── 2024_01_17 FTB Letter.pdf
+│   └── 2024_03_03 LA Finance S-Crew.pdf
+├── Searchstax
+│   ├── Benefits
+│   │   └── Benefits Enrollment _ Your Elections.pdf
+│   ├── Bonus Letters
+│   │   ├── Adam Woods 2024 Bonus Letter.pdf
+│   │   ├── Andrei Karalevich 2024 Bonus Letter.pdf
+│   │   ├── Eric Melz 2024 Bonus Letter.pdf
+│   │   ├── Rahul Thapar 2024 Bonus Letter.pdf
+│   │   └── Yuri Fursov 2024 Bonus Letter.pdf
+│   ├── Documents
+│   │   ├── 2024 SearchStax Employee Handbook .pdf
+│   │   ├── Arbitration Agreement - CA - 2023.pdf
+│   │   ├── I9 Receipt.pdf
+│   │   └── SearchStax - PIIA.pdf
+│   ├── PayStubs
+│   │   ├── 2024-01-22.pdf
+│   │   ├── 2024-02-07.pdf
+│   │   ├── 2024-02-22.pdf
+│   │   ├── 2024-03-07.pdf
+│   │   ├── 2024-03-22.pdf
+│   │   └── 2024-03-29.pdf
+│   └── Studio Demos
+│       ├── Slides
+│       │   ├── 2023
+│       │   │   ├── 2023-10-10.pptx
+│       │   │   ├── 2023-10-24.pptx
+│       │   │   ├── 2023-11-07.pptx
+│       │   │   ├── 2023-11-28 Kubernetes.pptx
+│       │   │   ├── 2023-11-28(1).pptx
+│       │   │   ├── 2023-11-28.pptx
+│       │   │   └── 2023-12-12.pptx
+│       │   ├── 2024
+│       │   │   ├── 2024-01-02.pptx
+│       │   │   ├── 2024-01-16.pptx
+│       │   │   ├── 2024-01-30.pptx
+│       │   │   ├── 2024-02-13.pptx
+│       │   │   ├── 2024-02-27.pptx
+│       │   │   ├── 2024-03-12.pptx
+│       │   │   ├── 2024-03-26.pptx
+│       │   │   ├── 2024-04-09.pptx
+│       │   │   └── 2024-04-23.pptx
+│       │   └── Template.pptx
+│       └── Videos
+│           ├── 2023-11-28  Studio Sprint Demo
+│           │   ├── audio1802549881.m4a
+│           │   └── recording.conf
+│           ├── 2023-11-28 Eric k8s demo
+│           │   ├── audio1433559195.m4a
+│           │   ├── recording.conf
+│           │   └── video1433559195.mp4
+│           ├── 2023-12-12 Studio Sprint Demo
+│           │   ├── audio1474107265.m4a
+│           │   ├── chat.txt
+│           │   ├── recording.conf
+│           │   └── video1474107265.mp4
+│           ├── 2024-01-16 Studio Sprint Demo
+│           │   ├── audio1958130370.m4a
+│           │   ├── recording.conf
+│           │   └── video1958130370.mp4
+│           ├── 2024-01-30 Studio Sprint Demo
+│           │   ├── audio1713462667.m4a
+│           │   ├── chat.txt
+│           │   ├── recording.conf
+│           │   └── video1713462667.mp4
+│           ├── 2024-02-13 Studio Sprint Demo
+│           │   ├── audio1141135438.m4a
+│           │   ├── chat.txt
+│           │   └── recording.conf
+│           ├── 2024-02-27 Studio Sprint Demo
+│           │   ├── audio1757796786.m4a
+│           │   ├── recording.conf
+│           │   └── video1757796786.mp4
+│           ├── 2024-03-12 Studio Sprint Demo
+│           │   ├── audio1357978164.m4a
+│           │   ├── chat.txt
+│           │   ├── double_click_to_convert_01.zoom
+│           │   ├── double_click_to_convert_02.zoom
+│           │   ├── recording.conf
+│           │   ├── video1357978164.mp4
+│           │   └── zoomver.tag
+│           ├── 2024-03-26 Studio Sprint Demo
+│           │   ├── audio1567093146.m4a
+│           │   ├── recording.conf
+│           │   └── video1567093146.mp4
+│           ├── 2024-04-09 Studio Sprint Demo
+│           │   ├── audio1214853438.m4a
+│           │   ├── recording.conf
+│           │   └── video1214853438.mp4
+│           └── 2024-04-23 Studio Sprint Demo
+│               ├── audio1731493624.m4a
+│               ├── recording.conf
+│               └── video1731493624.mp4
+├── Settlements
+│   └── 2024_04_18 Sjobring v First American Title.pdf
+├── Shopping
+│   ├── 2024_02_19 Costco Renewal Receipt.pdf
+│   └── 2024_02_19 Costco Renewal.pdf
+├── Social Security
+│   └── social-security-statement.pdf
+├── Subscriptions
+│   ├── 2024_03_02 Time Invoice.pdf
+│   ├── 2024_03_03 Time 2 years for $25.pdf
+│   ├── 2024_05_27 Time.pdf
+│   ├── 2024_07_06 Time Cancellation request.pdf
+│   ├── 2024_07_06 Time invoice.pdf
+│   └── Thank You For Subscribing To TIME.pdf
+├── Vacation
+│   ├── 2024-05-07 sphere tickets.pdf
+│   ├── 2024_02_28 Jockey Club Invoice.pdf
+│   ├── 2024_05_05 Jockey Club Reservation.pdf
+│   ├── 2024_05_22 Jockey Club Invoice.pdf
+│   ├── 2024_07_31 Reservation.pdf
+│   ├── 2024_08_01 Your Reservation Confirmation for Oscar's Steakhouse at the Plaza Hotel & Casino.pdf
+│   └── Platinum Interchange Flyer.pdf
+├── Vehicle
+│   ├── 2023_11_14 Travelers Receipt.pdf
+│   ├── 2024_01_25 Mtro Expresslane Account Closed.pdf
+│   ├── 2024_02_08 Tesla Safety Recall.pdf
+│   ├── 2024_03_03 AAA Notice.pdf
+│   ├── 2024_03_18 Tesla Registration Payment Confirmation.pdf
+│   ├── 2024_03_18 Tesla Registration.pdf
+│   ├── 2024_05_25 Mercedes Registration Renewal Notice.pdf
+│   └── Mercedes Insurance.pdf
+├── Whiffletree Designs
+│   ├── Banking
+│   │   └── Wells Fargo
+│   │       ├── Documents
+│   │       │   ├── 2024_02_12 Whiffletree Bank Paperwork.pdf
+│   │       │   ├── 2024_02_19 Whiffletree Debit Card Papers 1.pdf
+│   │       │   ├── 2024_02_19 Whiffletree Debit Card Papers 2.pdf
+│   │       │   ├── 2024_05_04 Account Re-opening Papers.pdf
+│   │       │   ├── Business Account Addenda.pdf
+│   │       │   ├── Business Account Fees and Information.pdf
+│   │       │   ├── Business Checks.pdf
+│   │       │   ├── Checks.pdf
+│   │       │   ├── Deposit Account Agreement.pdf
+│   │       │   ├── Privacy Notice.pdf
+│   │       │   ├── Rate Sheet.pdf
+│   │       │   └── Welcome Letter.pdf
+│   │       ├── Letters
+│   │       │   ├── 2024_05_04 Authorized Signer.pdf
+│   │       │   └── 2024_05_04 Whiffletree 2814 Couldn't Close Account.pdf
+│   │       └── Statements
+│   │           ├── 2024_02_29.pdf
+│   │           ├── 2024_03_31.pdf
+│   │           ├── 2024_04_30.pdf
+│   │           ├── 2024_05_06.pdf
+│   │           └── 2024_05_31.pdf
+│   └── Updated FBN
+│       ├── Fwd_ LA County Business Filing Completed.pdf
+│       ├── LA County Business Filing and Registration System.pdf
+│       ├── Screenshot 2024-05-02 at 1.20.32 PM.png
+│       └── WhiffleTree.pdf
+└── Who's Who
+    ├── 2024_05_31 Marquis Who's Who Letter.pdf
+    └── 2024_07_12 Top Professional.pdf
+
+165 directories, 385 files

@@ -57,6 +57,7 @@ def test1():
     ROOT_DIR = '/Users/ericmelz/Desktop/For Filing/SynologyDrive/'
     all_files = os.listdir(ROOT_DIR)
     file_paths = [os.path.join(ROOT_DIR, file) for file in all_files if file.endswith('.pdf')]
+    file_paths.append('/Users/ericmelz/Documents/code/filer-backend/exp/exp/data/tree.txt')
 
     file_streams = [open(path, "rb") for path in file_paths]
 
@@ -93,7 +94,7 @@ def test1():
 
     # queries = [query3, query4, query5]
 
-    queries = [(f'tree.txt contains a list of directories and files. Please suggest the most appropriate f'
+    queries = [(f'tree.txt contains a list of directories and files. Please suggest the most appropriate '
                 f'folder for the file {file}') for file in file_paths]
 
     for query in queries:
