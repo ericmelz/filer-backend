@@ -1,0 +1,5 @@
+### Upload a file
+POST http://localhost:8000/upload/
+Content-Type: application/json
+
+< ./jsonbody.json
