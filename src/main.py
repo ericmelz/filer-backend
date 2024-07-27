@@ -40,4 +40,5 @@ async def suggest_folder(request: FileSuggestionRequest):
 
     suggested_folder = f'{request.fileName=}, {request.currentHierarchy=}'
     # suggested_folder = response.choices[0].text
+    print(f'{openai.api_key=}')
     return {"suggestedFolder": suggested_folder}
