@@ -7,7 +7,7 @@ def test1():
     client = OpenAI(api_key=api_key)
 
     chat_completion = client.chat.completions.create(
-        model="gpt-4o",
+        model="gpt-4o-mini",
         messages=[
             {"role": "user", "content": "What is the capital of France?"},
         ]
